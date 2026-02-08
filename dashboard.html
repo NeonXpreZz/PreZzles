@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Stream Dashboard</title>
+<style>
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    height: 100vh;
+    background: black;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+#viewers { grid-row: 1 / 2; }
+#chat { grid-row: 2 / 3; }
+#alerts { grid-row: 3 / 4; }
+</style>
+</head>
+
+<body>
+<iframe id="viewers" src="https://socialstream.ninja/hype.html?session=TEFQP6NKZA&style=minimal&combineyoutube&font=Courier New&hidetitle&scale=2&viewersonly&lightmode"></iframe>
+<iframe id="chat" src="https://socialstream.ninja/dock.html?session=TEFQP6NKZA&compact&notime&ttssources=twitch&scale=0.77&font=Sora"></iframe>
+<iframe id="alerts" src="https://streamlabs.com/alert-box/v3/EB2A7B4175EF0E07BC2683246F034C540DC9F4713CF584744CD40DDA353B905C3F4F2D2036B9B218D53C0834391DD1B6871B9A91FBAFED3DA3FF8174B0D83FBA0595D9872FB81BABE0E63524358485E3EDA9CA30F668EA9B6740F826A63A461BE12176720A4E1AD0CA8D75734EA658150F98AD1CA397FC8EC6E6D8E6EE"></iframe>
+</body>
+</html>
